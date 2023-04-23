@@ -6,7 +6,7 @@ from discord.ext import commands
 from durations_nlp import Duration
 from durations_nlp.exceptions import InvalidTokenError
 from PIL import Image, UnidentifiedImageError
-import button_paginator as pg
+import paginator as pg
 from bs4 import BeautifulSoup
 from modules import emojis, exceptions, queries
 yes=""
